@@ -12,7 +12,7 @@ import { Disposable } from 'vs/base/common/lifecycle';
 import { Mimes } from 'vs/base/common/mime';
 import * as platform from 'vs/base/common/platform';
 import { generateUuid } from 'vs/base/common/uuid';
-import { ClipboardEventUtils } from 'vs/editor/browser/controller/textAreaInput';
+import { ClipboardEventUtils } from 'vs/editor/browser/controller/editContext/textArea/textAreaInput';
 import { toExternalVSDataTransfer, toVSDataTransfer } from 'vs/editor/browser/dnd';
 import { ICodeEditor } from 'vs/editor/browser/editorBrowser';
 import { IBulkEditService } from 'vs/editor/browser/services/bulkEditService';
